@@ -87,4 +87,4 @@ The system generates different outputs based on BMI:
 
 ## 👨‍💻 Author
 
-Amith
+Amith Ajith Kumar
