@@ -88,3 +88,10 @@ The system generates different outputs based on BMI:
 ## 👨‍💻 Author
 
 Amith Ajith Kumar
+# 🏋️ PowerFit Gym Website
+
+![HTML](https://img.shields.io/badge/HTML-5-orange)
+![CSS](https://img.shields.io/badge/CSS-3-blue)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
+![Status](https://img.shields.io/badge/Status-Live-brightgreen)
+![Platform](https://img.shields.io/badge/Platform-GitHub%20Pages-black)
