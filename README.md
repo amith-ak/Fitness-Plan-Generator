@@ -1,29 +1,42 @@
-# 🏋️ Fitness-Plan-Generator
+# 🏋️ Fitness Plan Generator
 
-A smart fitness web application that generates personalized workout plans, diet recommendations, and transformation timelines based on user inputs like weight and height.
+> A smart fitness planner web app built using HTML, CSS, and JavaScript
+
+![HTML](https://img.shields.io/badge/HTML-5-orange)
+![CSS](https://img.shields.io/badge/CSS-3-blue)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
+![Status](https://img.shields.io/badge/Status-Live-brightgreen)
+![Platform](https://img.shields.io/badge/Platform-GitHub%20Pages-black)
 
 ---
 
 ## 📌 Project Description
 
-This project simulates a real-world fitness assistant system.  
-It calculates BMI using user input and dynamically generates:
+A dynamic fitness web application that generates personalized workout plans, diet recommendations, and transformation timelines based on user inputs like weight and height.
 
-- Workout routines (Muscle Gain / Balanced / Fat Loss)
-- Diet plans recommended by a trainer
-- Estimated transformation time
-
-The goal is to provide users with a simple and interactive fitness planning experience.
+This project simulates a real-world fitness assistant system using BMI-based logic to guide users toward their fitness goals.
 
 ---
 
 ## 🚀 Features
 
 - 💪 Workout Plan Generator (6-day split)
-- 📊 BMI Calculation with category classification
+- 📊 BMI Calculator with category classification
 - 🥗 Trainer Recommended Diet Plan
 - ⏳ Estimated Transformation Time
 - 🎨 Modern Card-Based UI Design
+
+---
+
+## ▶️ How to Use
+
+1. Enter your **weight and height**
+2. Click **Generate Plan**
+3. View:
+   - Workout Plan (6-day split)
+   - Diet Recommendation
+   - Estimated Transformation Time
+4. Click **Check BMI** to view BMI and category
 
 ---
 
@@ -50,29 +63,47 @@ The goal is to provide users with a simple and interactive fitness planning expe
 
 ## 📊 Results / Output
 
-The system generates different outputs based on BMI:
+The system dynamically generates fitness plans based on BMI calculation.
 
-| BMI Range | Category | Output |
-|----------|--------|--------|
-| < 18.5 | Underweight | Muscle Gain Workout + High-Calorie Diet |
-| 18.5 – 24.9 | Normal | Balanced Workout + Maintenance Diet |
-| > 25 | Overweight/Obese | Fat Loss Workout + Low-Calorie Diet |
+### Example Cases:
 
-### Example Outputs:
+- **Input:** 50kg, 175cm  
+  → BMI: 16.3 (Underweight)  
+  → Output: Muscle Gain Plan  
 
-- **Input:** 50kg, 175cm → Muscle Gain Plan  
-- **Input:** 65kg, 175cm → Balanced Plan  
-- **Input:** 90kg, 175cm → Fat Loss Plan  
+- **Input:** 65kg, 175cm  
+  → BMI: 21.2 (Normal)  
+  → Output: Balanced Fitness Plan  
 
-✔ Dynamic plan generation  
-✔ Structured 6-day workout split  
-✔ Diet aligned with fitness goal  
+- **Input:** 90kg, 175cm  
+  → BMI: 29.4 (Overweight)  
+  → Output: Fat Loss Plan  
+
+✔ Personalized plan generation  
+✔ Structured weekly workouts  
+✔ Diet aligned with user goal  
+
+---
+
+## ⭐ Project Highlights
+
+- Dynamic fitness plan generation based on BMI logic  
+- Clean and modern card-based UI  
+- Simulates a real-world fitness recommendation system  
+- Interactive and beginner-friendly  
 
 ---
 
 ## 🌐 Live Demo
 
-👉 https://amith-ak.github.io/powerfit-gym-website
+👉 https://amith-ak.github.io/fitness-plan-generator
+
+---
+
+## 📁 Project Structure
+
+Contains the core frontend files (index.html, style.css, script.js) and images folder for UI screenshots used in the README.
+
 
 ---
 
@@ -81,17 +112,10 @@ The system generates different outputs based on BMI:
 - AI-based personalized recommendations  
 - User goal selection (Gain / Loss / Maintain)  
 - Progress tracking with charts  
-- Backend integration for user data storage  
+- Backend integration  
 
 ---
 
 ## 👨‍💻 Author
 
 Amith Ajith Kumar
-# 🏋️ PowerFit Gym Website
-
-![HTML](https://img.shields.io/badge/HTML-5-orange)
-![CSS](https://img.shields.io/badge/CSS-3-blue)
-![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
-![Status](https://img.shields.io/badge/Status-Live-brightgreen)
-![Platform](https://img.shields.io/badge/Platform-GitHub%20Pages-black)
